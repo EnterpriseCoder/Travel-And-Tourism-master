@@ -1,0 +1,19 @@
+{% extends "myapp/myapp_base.html" %}
+{% block body_block %}
+<div class="container">
+  <br>
+  <h1><b>Geziler</b> Önerdiğimiz :-</h1><br>
+  <div class="row">
+    {% for pack in package_list %}
+    <div class="col-md-3" style="margin-bottom:20px;">
+      <img src="{{ pack.dst_img.url }}" class="img-fluid rounded-lg mx-auto d-block" alt="..." width="275"
+        style="margin-bottom:20px">
+      <center>
+        <h4><a style="text-decoration:none;" href="{{pack.id}}/">{{pack.destination}}</a></h4>
+      </center>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

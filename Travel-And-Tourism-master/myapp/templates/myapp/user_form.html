@@ -1,0 +1,32 @@
+{% extends "myapp/myapp_base.html" %}
+
+{% block body_block %}
+<div class="container">
+  <h1>Rezervasyon Sayfası:</h1>
+  <br>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <!--<div class="form-group">
+      <label for="exampleInputName1">Name</label>
+      <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputMobile1">Contact</label>
+      <input type="text" class="form-control" id="exampleInputMobile1" placeholder="Enter your mobile no.">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDesti1">Contact</label>
+      <input type="text" class="form-control" id="exampleInputDesti1" placeholder="Enter your Destination">
+    </div>-->
+    <button type="submit" class="btn btn-primary">Başvur</button>
+  </form>
+</div>
+
+
+{% endblock %}

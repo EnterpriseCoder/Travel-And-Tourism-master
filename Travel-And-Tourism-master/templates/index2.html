@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SS</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+{% block body_block %}
+<nav class="black" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#">Güncel Turlarımız</a></li>
+    </ul>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#">İletişime Geç</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Güncel Turlarımız</i></a>
+  </div>
+</nav>
+
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="header center teal-text text-lighten-2">Hgm Turizm'e Hoşgeldiniz</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">turlarımız</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button"
+          class="btn-large waves-effect waves-light teal lighten-1">Hgm</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+  <div class="jumbotron" style=" margin-top:55px; background-image: url('{% static "images/background1.jpg" %}');">
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">Kuruluşumuz</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">
+              Hizmette Güvenilirlik
+
+
+              2017 yılında kurulan HGM Turizm H.Gazi Mahmutoğlu tarafından kuruldu.Genç Ceo H.Gazi bey'in emekleri ve
+              titiz
+              çalışmaları kendine ve firmasına olan inancı ve girişimcilikte ki korkusuz tutumu insanlara güven aşıladı
+              bu sayede
+              güven veren dürüst ve etik hizmetimiz, kalite standartları çalışmamız ve insanların derdinden anlayan
+              çözüm odaklı
+              hizmet anlayışımız insanların HGM Turizm markasına olan güvenini her geçen gün arttırdı.Yurtiçi Mardin
+              Çevre turları
+              olarak başlattığımız maceramızı 2018 yılında Tarım,İnşaat,Gıda sektörleri ile güçlendirdik.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">Sektörlerimiz</i></h2>
+
+
+            <p class="light">2019 yılında
+              HGM Turizm'in
+              aktif olarak hizmet vermekte olduğu yüksek kalite standartları ve ideal hizmet garantisi veren kadrosuyla
+              Tarım,İnşaat,Gıda,Araç Kiralama ve satışı,Ev kiralama , Yurdışı Turları , Yurtiçi Mardin Çevre turları
+              olmak üzere bir
+              çok farklı sektörlere açıldık.Ürün ve hizmetlerimi geliştirerek, otel rezervasyonu ile başlayan maceramıza
+              çevre turları
+              ,gap turları ,Transfer Redcar hizmetleri,rafting,dağ sporları,yöresel ürün hizmetleri,profosonel rehberlik
+              hizmetleri,uçak bileti,araba kiralama ekledik.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">Misyonumuz</i></h2>
+            <h5 class="center"></h5>
+
+            <p class="light">Bir çok başarının ardından HGM TURİZM AŞ olarak kalitemiz ve
+              markamız HGM Turizm en önemli
+              misyonu,
+              konukları için güzel anılar üretmektir. Çevre bilinci ve toplam kalite inancı içinde insan kaynağımızı,
+              teknolojiyi,
+              bilgiyi en etkin ve verimli şekilde kullanarak, akılcı ve öncü yaklaşımlarımızı sürdürerek, gelir ve
+              istihdam yaratarak
+              ülkemizin, konuklarımızın, çalışanlarımızın ve ortaklarımızın menfaatlerini en üst seviyeye
+              yükseltmektir.Gelişen
+              teknolojileri en yakından takip eden Hgm Turizm'sosyal medya hesabı üzerinden takip edebilirsiniz
+              indirimli turlarımız
+              yararlanmak için takipte kalın.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light">seyahat etmek özgürlüktür... </h4>
+          <h3 class="bold">Hgm Turizm</h3>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron" style=" margin-top:55px; background-image: url('{% static "images/background2.jpg" %}');"
+      alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>hedeflerimiz</h4>
+          <p class="left-align light">2019
+            yılının en iyi seyahat acentsı ödülüne layık görüldü.Çevre esnafa ve fuarlarda göstermiş olduğu
+            profesyonel ve üstün
+            hizmetler ve müşteri menuniyetinin en iyi şekilde sağlamaya çalışan genç ve dinamik donanımlı kadrosuyla
+            HGM Turizm
+            ülkemize hizmet vermeye devam ediyor.HGM Turizmin hayalleri medeniyetler şehri mardinden başlayip, bütün
+            dünyaya turizm
+            sektöründe güvenilir ve kaliteli hizmeti, ucuza mal edip müşterilerimize sunmaktır.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light">seyahat etmek özgürlüktür... </h4>
+          <h3 class="bold">Hgm Turizm</h3>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="parallax"><img src="{% static 'background3.jpg' %}" alt="Unsplashed background img 3"></div> -->
+    <div class="jumbotron" style=" margin-top:55px; background-image: url('{% static "images/background3.jpg" %}');"
+      alt="Unsplashed background img 2"></div>
+
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
+            full time job. Any amount would help support and continue development on this project and is greatly
+            appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Settings</h5>
+          <ul>
+            <li><a class="black-text" href="#!">Link 1</a></li>
+            <li><a class="black-text" href="#!">Link 2</a></li>
+            <li><a class="black-text" href="#!">Link 3</a></li>
+            <li><a class="black-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Connect</h5>
+          <ul>
+            <li><a class="black-text" href="#!">Link 1</a></li>
+            <li><a class="black-text" href="#!">Link 2</a></li>
+            <li><a class="black-text" href="#!">Link 3</a></li>
+            <li><a class="black-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{% static 'js/materialize.js' %}"></script>
+  <script src="{% static 'js/init.js' %}"></script>
+
+  {% endblock %}
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+
+</html>

@@ -1,0 +1,44 @@
+
+.whole_font{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.cool_effect::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.cool_effect:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 600px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    padding-top: 100px;
+}
+
+.icon i{
+   font-size: 80px;
+   margin-bottom: 20px;
+
+   text-align: center;
+}
+
+
+#service:hover{
+  background-color: #f05053;
+  transition: 0.4s;
+  color: white;
+}
